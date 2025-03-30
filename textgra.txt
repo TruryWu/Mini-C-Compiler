@@ -1,4 +1,0 @@
-<declare_list> -> <declare> <declare_list>
-<declare_list> -> <declare>
-<declare> -> int ID <var_declare>
-<var_declare> -> ;
