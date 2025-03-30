@@ -1,0 +1,26 @@
+//aaa
+/*        */
+int a;
+int fun(int a,int b)
+{
+if(a<10)
+{
+int cc;
+cc=5;
+b=cc+1;
+return 2;
+}else
+{
+return 1;
+}
+}
+int main(void)
+{
+int e;
+int d;
+e=fun(e,d);
+while(e<10)
+{
+e=e+1;
+}
+}
