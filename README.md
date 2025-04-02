@@ -20,7 +20,7 @@ Mini C Compiler 实现的编译语言的文法包括C语言风格的变量声明
   对生成的中间代码进行DAG优化。
 
 ## 项目结构
-
+```
 Mini C Compile:
 │  ActionAndGoto.txt #Action和Goto表
 │  grammar.txt       #Mini C 文法规则
@@ -52,7 +52,7 @@ Mini C Compile:
             analys_LR.cpp
             analys_LR.h
 
-
+```
 ## 构建与运行
 
 ### 先决条件
@@ -68,8 +68,10 @@ Mini C Compile:
 
 2. 读取文法规则
 
-  使用selectAndtable.h中的GrammarAnalyzerLR或者GrammarAnalyzerLL类对文法grammar进行分析生成ActionAndGoto表
+   使用selectAndtable.h中的GrammarAnalyzerLR或者GrammarAnalyzerLL类对文法grammar进行分析生成ActionAndGoto表
 
 3. 对测试程序进行编译
-  先使用lexical.h中的Scan类对测序程序text.txt进行词法分析，然后用改Scan类初始化analys_LR.h中的Parser类，随后使用Parser类进行编译。
-  详细使用过程可见main.cpp中的调用过程。
+   
+   先使用lexical.h中的Scan类对测序程序text.txt进行词法分析，然后用改Scan类初始化analys_LR.h中的Parser类，随后使用Parser类进行编译。
+  
+   详细使用过程可见main.cpp中的调用过程。
