@@ -48,7 +48,7 @@ Mini C Compile:
     │      optimize.cpp
     │      optimize.h
     │      
-    └─Parser         #编译器主题部分，读取程序文件，使用LR分析对程序先进行词法分析，随后在进行语法分析的同时进行语义分析。
+    └─Parser         #编译器主体部分，读取程序文件，使用LR分析对程序先进行词法分析，随后在进行语法分析的同时进行语义分析。
             analys_LR.cpp
             analys_LR.h
 
